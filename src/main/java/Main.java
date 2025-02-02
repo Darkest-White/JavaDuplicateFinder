@@ -7,6 +7,5 @@ public class Main {
         List<String> list = DuplicateFinder.findDuplicates(strings);
 
         System.out.println(list);
-
     }
 }
