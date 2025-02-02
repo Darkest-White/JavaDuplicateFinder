@@ -5,6 +5,9 @@ import java.util.Set;
 
 public class DuplicateFinder {
     public static List<String> findDuplicates(List<String> strings) {
+        /*return strings.stream()
+                .distinct()
+                .toList();*/
         Set<String> seen = new HashSet<>();
         Set<String> duplicates = new HashSet<>();
 
